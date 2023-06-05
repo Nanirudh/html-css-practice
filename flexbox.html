@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox Practice</title>
+	<style>
+		.flexbox {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			  align-items: center;
+			  padding-top: 6px;
+			  padding-bottom: 6px;
+			  padding-left: 12px;
+			  padding-right: 12px;
+		}
+		.notification {
+			 background-color: rgb(49, 109, 245);
+			  color: white;
+			  padding-top: 3px;
+			  padding-bottom: 3px;
+			  padding-left: 10px;
+			  padding-right: 10px;
+			  border-radius: 20px;
+			  font-size: 14px;
+			  font-weight: bold;
+
+		}
+		.search-bar {	
+	        width: 500px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div style="display:flex;flex-direction: row;">
+		<div style="background-color:lightblue;width: 100px;">div1</div>
+		<div style="background-color:lightpink;flex:1">flex1</div>
+	</div>
+	<div style="display:flex;flex-direction: row;margin-top: 15px;">
+		<div style="background-color:lightblue;width: 100px;">div1</div>
+		<div style="background-color:lightpink;flex:1;">flex1</div>
+		<div style="background-color:lightblue;flex:2">flex2</div>
+	</div>
+
+	<div style="display:flex;flex-direction: row;margin-top: 15px;height:50px; justify-content: space-between;align-items: center; border: grey;border-width: 1px;border-style: solid;">
+		<div style="background-color:lightblue;">div1</div>
+		<div style="background-color:lightpink;">div2</div>
+	</div>
+
+
+	<div style="width: 300px;border-width: 1px;border-style: solid;border-radius: 6px;margin-top:15px;border-color: grey;">
+		<div class="flexbox">
+			<div>Home</div>
+			<div class="notification">14</div>
+		</div>
+		<div class="flexbox">
+			<div>Notifications</div>
+			<div class="notification">13</div>
+		</div>
+		<div class="flexbox">
+			<div>Messages</div>
+			<div class="notification">5</div>
+		</div>
+	</div>
+
+	<div style="margin-top: 15px; display:flex;flex-direction: row;background-color: violet;justify-content: space-between; align-items: center;">
+		<div style="width:50px">
+			<p style="color: white;font-weight: bold;padding-left:15px">Home</p>
+		</div>
+		<div>
+			<input class="search-bar" type="text">
+		</div>
+		<div>
+			<button style="background-color:violet;color: white;font-weight: bold;border-style: solid;border-color: white;border-width: 1px;margin-right: 10px;padding-top:5px;padding-bottom: 5px;">Download</button>
+		</div>
+
+	</div>
+
+	<div style="display:flex;margin-top:10px; height: 30px;margin-bottom: 10px;">
+		<div style="background-color:lightpink;width: 100px;display: flex; align-items: center;justify-content: center;">
+			<div style="background-color:black;color: white;">
+				item1
+			</div>
+		</div>
+		<div style="background-color:lightblue;width:200px;"> 
+		</div>
+	</div>
+	
+	<div style="display:flex; height: 50px;margin-bottom: 10px;">
+		<div style="background-color:lightpink;width: 100px;">
+		</div>
+		<div style="background-color:lightblue;width:200px;display: flex;flex-direction: column;"> 
+			<div>
+				item1
+			</div>
+			<div style="display:flex;vertical-align: top;justify-content: space-between;">
+				<div style="background-color:black; color: white;">item2</div>
+				<div style="background-color:black; color: white;">item2</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div style="display:flex;border-width:1px;border-style: solid;border-color: grey;flex-direction: column;width:450px; border-radius: 5px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);">
+		<div style="color: grey;font-weight: bold;padding-left: 15px;padding-top: 15px;">ALL INBOXES</div>
+			<div style="display:flex;margin-top: 30px;">
+				<div>
+					<img style="width:60px; height: 70px;border-radius: 30px;margin-left: 20px;" src="thumbnails/cat-image.jpeg">
+				</div>
+				<div style="margin-left: 30px;flex:1;margin-right: 10px;">
+					<div style="display:flex;justify-content:space-between;">
+						<div style="font-weight: bold;">Chewy Promotions</div>
+						<div style="color:grey;">4:58PM</div>
+					</div>
+					<div style="margin-top:10px;margin-bottom: 10px;font-weight: bold;">
+						Biggest sales of the year!
+					</div>
+					<div style="margin-bottom: 10px;color: grey;">
+						Hey there! we are writing to tell you about our...
+					</div>
+                </div>
+			   
+		    </div>
+
+		    <div style="display:flex;margin-top: 30px;">
+				<div>
+					<img style="width:60px; height: 70px;border-radius: 30px;margin-left: 20px; object-fit: cover;               " src="thumbnails/dog-pic-1.jpg ">
+				</div>
+				<div style="margin-left: 30px;flex:1;margin-right: 10px;">
+					<div style="display:flex;justify-content:space-between;">
+						<div style="font-weight: bold;">Best Buy</div>
+						<div style="color:grey;">12:32PM</div>
+					</div>
+					<div style="margin-top:10px;margin-bottom: 10px;font-weight: bold;">
+						Your Best Buy eReceipt
+					</div>
+					<div style="margin-bottom: 10px;color: grey;">
+						Thank you for shopping at Best Buy. Here is ...
+					</div>
+                </div>
+			   
+		    </div>
+
+		    <div style="display:flex;margin-top: 30px;">
+				<div>
+					<img style="width:60px; height: 70px;border-radius: 30px;margin-left: 20px; object-fit: cover;" src="thumbnails/doc-pic-2.jpeg">
+				</div>
+				<div style="margin-left: 30px;flex:1;margin-right: 10px;">
+					<div style="display:flex;justify-content:space-between;">
+						<div style="font-weight: bold;">Netflix</div>
+						<div style="color:grey;">9:00AM</div>
+					</div>
+					<div style="margin-top:10px;margin-bottom: 10px;font-weight: bold;">
+						Here's what's coming soon to Netflix
+					</div>
+					<div style="margin-bottom: 10px;color: grey;">
+						Brand new movies and shows. Old favorites ...
+					</div>
+                </div>
+			   
+		    </div>
+		</div>
+	</div>
+
+</body>
+</html>
