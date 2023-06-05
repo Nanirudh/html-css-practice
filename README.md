@@ -6,7 +6,7 @@ HTML and css refresher exercises from the YouTube Supersimpledev tutorial.Create
 
 Some other exercise snapshots:
 
-![exercise-1](https://github.com/Nanirudh/html-css-practice/assets/40365086/0e665b1b-c70a-4ab0-b463-41668e340089)![exercise-3](https://github.com/Nanirudh/html-css-practice/assets/40365086/a6209c11-c204-439c-8db3-d1bc1852af9d)
+![exercise-1](https://github.com/Nanirudh/html-css-practice/assets/40365086/0e665b1b-c70a-4ab0-b463-41668e340089|width=200)![exercise-3](https://github.com/Nanirudh/html-css-practice/assets/40365086/a6209c11-c204-439c-8db3-d1bc1852af9d|width=200)
 
 
 ![exercise-4](https://github.com/Nanirudh/html-css-practice/assets/40365086/5383a3f1-3910-4828-bcde-59d6f1a2c3af)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         ![exercise-2](https://github.com/Nanirudh/html-css-practice/assets/40365086/1692d026-0ac3-4d21-9582-0e83d4dbfdf1)
